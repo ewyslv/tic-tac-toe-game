@@ -66,11 +66,3 @@ export const checkWinner = (arr, currentPlayer, name1, name2, size) => {
     );
 };
 
-// const compose = (...fns) => (...x) => {
-//     return fns.reduceRight((acc, fn) => fn(...acc), x);
-// }
-
-// export const withCompose = compose (
-//     checkWinner,
-//     generateMatrix,
-// );
