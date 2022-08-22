@@ -1,0 +1,23 @@
+
+.field {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-bottom: 1rem;
+  }
+
+.size3 {
+    width: 180px;
+    height: 180px;
+}
+
+.size5 {
+    width: 300px;
+    height: 300px;
+}
+
+.size10 {
+    width: 600px;
+    height: 600px;
+}

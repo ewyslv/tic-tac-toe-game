@@ -1,0 +1,16 @@
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    outline: 1px solid black;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .cell:hover {
+    background-color: #FFB562;
+  }
+  

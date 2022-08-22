@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  background-color: #222222;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+}
+
+.victory {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.status {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.fieldSize {
+  margin: 2rem 0;
+}
+
+.btn__wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.btn__wrapper > .btn {
+  margin-right: 1rem;
+}
+
+.btn {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+    
+  width: 140px;
+  height: 50px;
+    
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  transition: all .2s ease-in-out;
+  box-shadow: 1px 1px 10px 1px none;
+        
+  color: gray;
+}
+
+.btn:hover {
+  /* font-weight: bold; */
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.green {
+  color: #fff;
+  background-color: #31d658;
+}
+
+.blue {
+  color: #fff;
+  background-color: #3AB0FF;
+}
+
+.red {
+  color: #fff;
+  background-color: #F87474;
+}
+
+.btn_fields:hover {
+  background-color: #FFB562;
+}
+
+.btn_big {
+  width: 250px;
+  height: 50px;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+
+.fieldSize > .btn {
+  margin-right: 1rem;
+}
+
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.input__wrapper > .input {
+  margin-bottom: .5rem;
+}
+
+.input {
+  display: inline-block;
+  width: 100%;
+  max-width: 500px;
+  padding: 10px 0 10px 10px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, .9);
+  border-radius: 50px;
+
+
+  &:hover {
+      font-weight: bold;
+      transition: font-weight .3s ease;
+  }
+
+  &::-webkit-input-placeholder {
+      color: gray;
+      text-indent: 0px;
+      transition: text-indent .5s ease;
+  }
+
+  &:focus::-webkit-input-placeholder {
+      text-indent: 500px;
+      transition: text-indent .5s ease;
+  }
+
+  &::-moz-placeholder {
+      color: gray;
+      text-indent: 0px;
+      transition: text-indent .3s ease;
+  }
+
+  &:focus::-moz-placeholder {
+      text-indent: 500px;
+      transition: text-indent .3s ease;
+  }
+
+  &:-moz-placeholder {
+      color: gray;
+      text-indent: 0px;
+      transition: text-indent .3s ease;
+  }
+
+  &:focus:-moz-placeholder {
+      text-indent: 500px;
+      transition: text-indent .3s ease;
+  }
+
+  &:-ms-input-placeholder {
+      color: gray;
+      text-indent: 0px;
+      transition: text-indent .3s ease;
+  }
+
+  &:focus:-moz-placeholder {
+      text-indent: 500px;
+      transition: text-indent .3s ease;
+  }
+}
